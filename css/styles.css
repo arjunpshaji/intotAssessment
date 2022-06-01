@@ -1,0 +1,506 @@
+
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+header a:hover{
+    color:azure;
+}
+
+p.title-para{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color:rgb(255, 255, 255);
+    font-size: 1.1rem;
+    text-shadow: 1px 1px rgb(180, 224, 77);
+}
+
+header{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2rem;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+}
+
+h1 .inno{
+    color: #fff;
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
+}
+
+H5{
+    font-size: 1.4REM;
+}
+
+.h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADER */
+
+.navbar{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.p2-items{
+    padding: 0 20px 0 20px;
+}
+
+
+
+
+/* TITLE */
+
+/* #title{
+
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    padding-bottom: 70px;
+    background-image: radial-gradient(rgb(241, 255, 50), hsl(69, 75%, 39%));
+    position:relative;
+    
+} */
+
+.top-container::before{
+    content: "";
+    position:absolute;
+    width:100%;
+    height:95%;
+    left:0;
+    top:0;
+    background-image: radial-gradient(rgb(241, 255, 50), hsl(69, 75%, 39%));
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.title-text{
+    padding: 5% 0 7% 0;
+    
+}
+
+.top-img{
+    width: 100%;
+  
+}
+.readmore{
+    border-radius: 100px;
+}
+
+
+
+
+/* CAROUSEL */
+
+
+.carousel-indicators {
+    font-weight: 500;
+    color: #fff;
+    justify-content: flex-start;
+    margin: 0;
+    left: 5%;
+    align-self: center;
+    font-family: 'Mukta', sans-serif;
+  }
+
+.carousel-indicators .active {
+    font-size: 24px;
+  }
+
+  
+.carousel-indicators li {
+    text-indent: initial;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    line-height: 10px;
+    opacity: 0.9;
+    padding-right: 10px;
+    margin-bottom: 30px;
+  }
+
+.carousel-btn {
+    /* width: 50px;
+    margin-left:50%;
+    position:absolute;
+    z-index: 999; */
+    width:100px;
+    position: absolute;
+    bottom:0 !important;
+    display: flex;
+    top:65vh;
+    justify-content: space-between;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+
+  }
+  .carousel-btn .carousel-control-prev:hover,
+  .carousel-btn .carousel-control-next:hover{
+    background-color:black;
+    background-size: 10px;
+  }
+  .carousel-btn .carousel-control-prev{
+      background-image: url(../images/left-black-arrow.png);
+      z-index:3;
+
+  }
+  .carousel-btn .carousel-control-next{
+    background-image: url(../images/right-black-arrow.png);
+    z-index:3;
+}
+
+.carousel-btn .carousel-control-prev:hover{
+    background-image: url(../images/prev.png);
+    z-index:3;
+}
+.carousel-btn .carousel-control-next:hover{
+    background-image: url(../images/next.png);
+    z-index:3;
+}
+
+  /* .carousel-control-prev{
+      padding-right:50px;
+  }
+
+  .carousel-control-prev:hover{
+      color:black;
+  }
+
+  
+  .carousel-control-next{
+    margin-right:10px;
+}
+
+.carousel-control-next:hover{
+    color:black;
+} */
+
+.carousel-control-prev,
+.carousel-control-next{
+    border-radius: 100%;
+    background-color: white;
+    opacity:1;
+    width:45px;
+    height:45px;
+    top:auto;
+    bottom: 0!important;
+    box-shadow: 2px 0px 23px -4px rgba(0,0,0, 0.32);
+    position:absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    z-index: 9999;
+}
+
+
+
+
+
+
+/* MIDDLE */
+/* .slope {
+    height: 30%;
+    width:100%;
+    transform: rotate(-10deg) skew(-10deg);
+    background-color:#000 ;
+    position:absolute;
+    z-index: -1;
+    padding-right: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  } */
+  .middle2{
+      background-color: #fff;
+      text-align: center;
+      padding-top: 10%;
+      padding-bottom: 10%;
+  }
+
+  /* .arrow-images{
+    padding-left:45%;
+    padding-bottom: 5%;
+  }
+
+  .arrow-img{
+      border: solid white 10px;
+    border-radius: 100%;
+    
+  } */
+
+
+  /* CARD */
+
+  .cardSection{
+      padding-left: 4.5%;
+      margin-top:4%;
+  }
+
+.card-title{
+    padding-bottom: 10px;
+}
+
+
+  .cardbtn{
+      right: 30px;
+      border-radius: 100px;
+      margin-top:20px;
+  }
+.card-img-top1{
+    width:32%;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+.card-img-top2{
+    width:40%;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+.card-img-top3{
+    width:37%;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+.card{
+    border:none;
+}
+
+.btn-outline{
+    border-color: hsl(69, 75%, 39%);
+    color:hsl(69, 75%, 39%);
+} 
+
+.btn-outline:hover {
+    background-color: hsl(69, 75%, 39%);
+    border-color: hsl(69, 75%, 39%);
+    color:#fff;
+}
+.btn-outline:active,
+.btn-outline:focus {
+    color: #fff;
+    background-color: hsl(69, 75%, 39%) !important;
+    border-color: hsl(69, 75%, 39%) !important;
+    box-shadow: 0 0 0 0.2rem hsl(69, 75%, 39%) !important;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    text-align:center;
+    padding-bottom: 10%;
+}
+
+.port-img1{
+    margin-left: 10%;
+}
+
+.port-img3{
+    margin-left: 17.8%;
+}
+.port-img4{
+    margin-right: 8.2%;
+}
+.port-div2{
+    margin-top: 3%;
+}
+
+.port-div1{
+    margin-top: 5%;
+}
+
+
+/* OVERLAY */
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: rgb(12, 2, 2);
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 2000px;
+    }
+}
+
+
+
+/* RESPONSVE */
+
+@media (max-width: 1000px){
+    .p2-items{
+        visibility:hidden;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 2000px;
+    }
+    .card-section-desc{
+        margin:20px 15%;
+        padding-bottom: 40px;
+    }
+    .card1{
+        margin-left:13%;
+        margin-right: 15%;
+        width: 15rem;
+    }
+    .card2{
+        width: 15rem;
+        margin-right:15%;
+    }
+    .btn-resp1{
+        margin-left:20%;
+    }
+    .btn-resp2{
+        margin-right:6%;
+    }
+    .btn-resp3{
+        margin-right: 3%;
+        margin-left: 4%;
+    }
+
+
+    .card3{
+        margin-left:28%;
+        margin-top:80px;
+    }
+    .port-img1{
+        width:80%;
+        margin-left:28%;
+    }
+    .port-img2{
+        width:55%;
+        margin-right:28%;
+    }
+    .port-img3{
+        width:67%;
+        margin-left:50%;
+    }
+    .port-img4{
+        width:70%;
+        margin-right:16%;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    .title-text{
+        text-align: center;
+    }
+    .title-para{
+        margin:10px 10%;
+    }
+    *, ::after, ::before {
+        box-sizing: content-box;
+    }
+    .top-container::before{
+        padding-bottom: 50%;
+    }
+    #title{
+        padding-bottom:10% ;
+    }
+    .top-img{
+        width:90%;
+        padding-bottom: 10%;
+    }
+
+    .card1{
+        margin-left:5%;
+    }
+    .card2{
+        margin-left:5%;
+    }
+    .card3{
+        margin-left:5%;
+    }
+    .btn-resp1{
+        margin-left:5%;
+        margin-bottom: 15%;
+    }
+    .btn-resp2{
+        margin-left:7%;
+    }
+    .port-img1{
+        margin-left:0%;
+        width:100%;
+        padding-bottom: 10px;
+    }
+    .port-img2{
+        margin-left:0%;
+        width:100%;
+    }
+    .port-img3{
+        margin-left:0%;
+        width:100%;
+        padding-bottom: 10px;
+    }
+    .port-img4{
+        margin-left:0%;
+        width:100%;
+        padding-bottom: 10px;
+    }
+}
